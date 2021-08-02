@@ -1,0 +1,32 @@
+{
+    "subscription": [
+      {
+        "tipo": "Plan Digital",
+        "precio": 5,
+        "imagen":"../assets/img/plan1.png",
+        "beneficios": ["Acceso a contenido premium y navegación ilimitada a elcomercio.pe",
+        "Descuentos especiales del club de beneficios."],
+        "id": 1
+      },
+      {
+        "tipo": "Digital + Impreso",
+        "precio": 35.00,
+        "imagen":"../assets/img/plan2.png",
+        "beneficios": ["Acceso total al",
+            "Descuentos especiales del club de beneficios.",
+            "Diario impreso 3 días a la semana (Vie, Sab y Dom), solo Lima y Callao",
+            "Versión digital del diario impreso"],
+        "id": 2
+      },
+      {
+        "tipo": "Digital + Impreso 7 días",
+        "precio": 65.00,
+        "imagen":"../assets/img/plan3.png",
+        "beneficios": ["Acceso a contenido premium y navegación ilimitada a elcomercio.pe",
+            "Acceso total al Club de beneficios",
+        "Diario impreso 7 días a la semana (Lun a Dom), solo Lima y Callao",
+    "Versión digital del diario impreso"],
+        "id": 1
+      }
+    ]
+  }
