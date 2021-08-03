@@ -6,7 +6,7 @@ import {
   COMENZAR_DESCARGA_NOTICIAS,
 } from "../types";
 
-const API_KEY = "17ff168396b945ee856a59be8e69f367";
+const API_KEY = "58e6ede9b65c4028857b09d7d57489fd";
 let fbusqueda = "";
 let fidioma = "es";
 let fcategoria = "general";

@@ -19,7 +19,7 @@ function Plan({ tipo, precio, imagen, duracion, despues, beneficios }) {
             {duracion ? `Durante ${duracion}` : ""}
           </p>
           <p className="text-center text-secondary h6">
-            {despues ? `Luego $/${despues} Al mes` : ""}
+            {despues ? `Luego S/ ${despues} Al mes` : ""}
           </p>
         </div>
 
