@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
 .form-responsive {
   display: flex;
   justify-content: center;
@@ -19,4 +25,17 @@
 
 .bck-gray {
   background-color: #282c34;
+}
+
+.bck-black {
+  background-color: #000000;
+}
+
+.bck-cielo {
+  background-color: #f4fbff;
+}
+
+.bck-yellow {
+  background-color: #fecd2a;
+  box-shadow: 0 3px 9px -2px rgb(0 0 0 / 55%);
 }

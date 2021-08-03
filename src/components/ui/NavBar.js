@@ -140,6 +140,9 @@ export default function NavBar() {
                 onChange={cambioIdioma}>
                 <option value="es">Español</option>
                 <option value="en">English</option>
+                <option value="fr">Français</option>
+                <option value="pt">Português</option>
+                <option value="ru">Pусский</option>
               </select>
             </li>
             <li className="nav-item">
@@ -158,7 +161,7 @@ export default function NavBar() {
             </li>
             <li className="nav-item">
               {usuarioObtenido ? (
-                <label className="btn-dark cerrar-sesion links">
+                <label className="btn-dark cerrar-sesion links text-capitalize">
                   {usuarioObtenido.firstName} {usuarioObtenido.lastName}
                 </label>
               ) : (
